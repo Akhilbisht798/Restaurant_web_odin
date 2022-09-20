@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+:root {
+    --roboto-Mono: 'Roboto Mono', monospace;
+    --bungee: 'Bungee Spice', cursive;
+}
+
+
+.Menu-Main-Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, .5);
+    margin-top: 3em;
+    padding: 1.2em;
+}
+
+.Menu-head {
+    font-family: var(--bungee);
+    font-size: 2em;
+}
+
+.Menu-Items-Div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+    font-family: var(--roboto-Mono);
+}
+
+.Chef_img {
+    width: 10em;
+}
+
+.Menu-image {
+    width: 25em;
+}

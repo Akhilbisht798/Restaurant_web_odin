@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --roboto-Mono: 'Roboto Mono', monospace;
+}
+
+.Home-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.Home-div-1 {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Home-Res-Name {
+    font-size: 3rem;
+    font-family: var(--roboto-Mono);
+    letter-spacing: 1.1em;
+    background: wheat;
+}
+
+.Home-div-1-para {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: var(--roboto-Mono);
+}
+
+.Order-btn {
+    font-size: 1.2em;
+    font-family: var(--roboto-Mono);
+    padding: 0.5rem;
+    background-color: wheat;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.Order-btn:hover {
+    background-color: wheat;
+    transform: scale(1.3);
+}
+
+
+
+.Home-div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.3em;
+    width: 40%;
+    background-color: rgba(196, 196, 196,.5);
+    padding: 1.2em;
+    font-size: 1.2em;
+}
